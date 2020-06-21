@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style type= "text/css">
+  #ul-circle {
+    
+    
+    list-style-type: circle; color: springgreen;
+  }
+  li::before{
+      content: "->";
+      color : gold;
+    }
+  #ol-upper-roman{
+    list-style-type: upper-roman; color: teal;
+  }
+   </style>
+</head>
+<body>
+  <!-- Unordered list-->
+  <p>
+    Fruits
+  </p>
+  
+    <li> citrius Fruits
+      <ul id= "ul-circle">
+    <li> Apples </li>
+    <li> Oranges </li>
+    <li> Grapes </li>
+  </ul>
+    </li>
+  
+
+  <!-- ordered list-->
+<p> Fruits </p>
+<ol id = "ol-upper-roman">
+  <li> Apples </li>
+  <li> Oranges </li>
+    <li> Grapes </li>
+</ol>
+
+</body>
+</html>
